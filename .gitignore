@@ -1,0 +1,7 @@
+.env
+.env.local
+server/.env
+server/node_modules/
+client/node_modules/
+ml-service/.env
+ml-service/node_modules/
