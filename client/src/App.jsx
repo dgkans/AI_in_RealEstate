@@ -10,6 +10,7 @@ import Profile from './pages/Profile'
 import UpdateProfile from './pages/UpdateProfile'
 import AddPost from './pages/AddPost'
 import About from './pages/About'
+import Contact from './pages/Contact'
 import { useAuth } from './context/AuthContext.jsx'
 
 function ProtectedRoute({ children }) {
@@ -39,6 +40,7 @@ function App() {
           <Route path="/list" element={<Listings />} />
           <Route path="/listing/:id" element={<ListingDetails />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route

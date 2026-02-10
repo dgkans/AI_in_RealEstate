@@ -85,7 +85,7 @@ export default function Home() {
           </Card>
           <div className="grid gap-6 sm:grid-cols-3">
             {[
-              { label: 'Years of Experience', value: '16+' },
+              { label: 'Years of Experience', value: '6+' },
               { label: 'Awards Gained', value: '200' },
               { label: 'Property Ready', value: '2000+' },
             ].map((stat) => (
